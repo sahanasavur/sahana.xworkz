@@ -2,17 +2,16 @@ public class Final
 {
     public static void main(String[] nk)
 	{
-	    String phoneNumber="8197425810"; 
-		 		 		
-		 System.out.println("phoneNumber : "+phoneNumber);
-		 
-		String emailAddress="sahanasavur@gmail.com";
-		 
-		 System.out.println("emailAddress :"+emailAddress);
-  
-	 
-	 final String adharNum="123456789012";
-	 System.out.println("adharNum : "+adharNum);	
+	       final String aadhaarNumer="0123 4567 0890";
 	
+		final String phoneNumber="8197425810";
+	
+		final String emailId="sahanasavur.xworkz@gmail.com";
+	
+		System.out.println("aadhaarNumer :"+aadhaarNumer);
+		
+		System.out.println("phoneNumber :"+phoneNumber);
+		
+		System.out.println("emailId :"+emailId);
 	}
 }
