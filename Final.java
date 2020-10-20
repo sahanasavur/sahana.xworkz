@@ -1,6 +1,6 @@
 public class Final
 {
-    public static void main(String[] nk)
+    public static void main(String[] s)
 	{
 	       final String aadhaarNumer="0123 4567 0890";
 	
