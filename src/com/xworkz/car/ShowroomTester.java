@@ -9,27 +9,20 @@ public class ShowroomTester {
 				Showroom carShowroom = new Showroom();
 				System.out.println(" ");
 
-				carShowroom.addManager("SAHANA", 8197425810l);
-				carShowroom.displayManager();
-				System.out.println(" ");
 
-				carShowroom.removeManager();
-				carShowroom.displayManager();
-				System.out.println(" ");
-
-				ManagerDTO managerDTO = new ManagerDTO("AISHU", 9448390334l);
-				carShowroom.updateManager(managerDTO);
-				carShowroom.displayManager();
-				System.out.println(" ");
-
-
-				ManagerDTO managerDTO2 = new ManagerDTO("SANA");
-				carShowroom.addManager(managerDTO2);
-				carShowroom.displayManager();
-				
-				ManagerDTO managerDTO3 = new ManagerDTO(1234567890l);
-				carShowroom.addManager(managerDTO3);
-				carShowroom.displayManager();
+						carShowroom.addManager("Sahana", 1234567890l);
+						carShowroom.displayManager();
+						carShowroom.removeManager();
+						carShowroom.displayManager();
+						System.out.println("  ");
+						
+						ManagerDTO dto=new ManagerDTO("Aishu", 720432);
+						carShowroom.addManager(dto);
+						carShowroom.displayManager();
+						System.out.println("  ");
+						carShowroom.updateManager(7829731400l);
+						System.out.println("  ");
+						
 
 			}
 	}
